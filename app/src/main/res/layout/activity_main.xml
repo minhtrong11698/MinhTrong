@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_ten"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ten TK:" />
+
+    <EditText
+        android:id="@+id/edt_ma"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Mat Khau:" />
+
+    <CheckBox
+        android:id="@+id/ckb_luutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu thông tin" />
+
+    <Button
+        android:id="@+id/btn_dangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D4E0E7"
+        android:text="Đăng nhập"
+        android:textAlignment="textEnd"
+        android:textColor="#050505" />
+
+    <Button
+        android:id="@+id/button_thoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoat" />
+</LinearLayout>
